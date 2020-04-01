@@ -11,7 +11,7 @@ const App: React.FC = () => {
       <header className="App-header">
         {/*<img src={logo} className="App-logo" alt="ya tyt" />*/}
         <div id="left">
-          <p><PrintText text={text}/></p>
+          <PrintText text={text}/>
         </div>
         {/*<p>
           Edit <code>src/App/App.tsx</code> and save to reload.
@@ -26,7 +26,7 @@ const App: React.FC = () => {
         </a>*/}
         <div id="right">
           <p><b>Введите текст:</b></p>
-          <p><MakeText onSubmit = {setText}/></p>
+          <MakeText onSubmit = {setText}/>
         </div>
       </header>
     </div>
