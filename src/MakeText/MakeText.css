@@ -1,0 +1,9 @@
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.bold-text {
+    font-weight: bold;
+}
